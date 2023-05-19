@@ -53,6 +53,8 @@ ul{
   border-radius: 15px;
   height: 22rem;
 
+  flex-wrap: wrap;
+
  
   margin-bottom: 10rem;
 }
@@ -61,6 +63,7 @@ ul{
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
   width: 35rem;
   
@@ -82,4 +85,25 @@ ul{
   flex-direction: column;
   align-items: center;
   font-size:14px;
+}
+
+
+@media screen and (max-width:767px){
+  .imageGame img{
+    width: 50%;
+  }
+
+  .contentTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .containerList{
+    display: flex;
+    flex-direction: column;
+  }
+  
 }

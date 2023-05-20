@@ -53,7 +53,8 @@ ul{
   border-radius: 15px;
   height: 22rem;
 
-  flex-wrap: wrap;
+
+
 
  
   margin-bottom: 10rem;
@@ -63,7 +64,7 @@ ul{
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
+ 
   justify-content: center;
   width: 35rem;
   
@@ -89,8 +90,16 @@ ul{
 
 
 @media screen and (max-width:767px){
+
+  .imageGame{
+    margin: 0;
+    padding:0;
+    width: 150%
+  }
+
   .imageGame img{
-    width: 50%;
+    width: 70%;
+    margin: 0
   }
 
   .contentTitle{
@@ -104,6 +113,31 @@ ul{
   .containerList{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
   }
   
+  .gameItem{
+    height: 10rem;
+    width: 20rem
+  }
+
+  .contentGame{
+    width: 20rem
+  }
+  .listGames{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0
+  }
+
+  .contentGame h1{
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+  }
 }
